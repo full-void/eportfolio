@@ -2,6 +2,7 @@
 @import "bootstrap/functions";
 @import "bootstrap/variables";
 @import "bootstrap/mixins";
+@import "bootstrap/bootstrap";
 
 
 body {	
@@ -599,11 +600,21 @@ a {
 
 
 .resume-item {
+	@extend  .d-flex;
+	@extend .mb-4;
+	@extend .align-items-center;
+	@extend .flex-sm-wrap;
+	@extend .flex-md-nowrap;
+	@extend .justify-content-center;
 	padding: 30px;
 	background: #333;
 	transition: .3s all ease;
 	border: 4px solid transparent;
 	border-radius: 7px;
+	div {
+		@extend .mx-3;
+		@extend .my-3;
+	}
 	.date {
 		display: block;
 		margin-bottom: 10px;
@@ -621,6 +632,12 @@ a {
 	}
 	.school {
 		color: rgba($white, .3);
+	}
+	img {
+		height: 450px;
+		width: 355px;
+		@extend .mx-3;
+		@extend .my-3;
 	}
 	*:last-child {
 		margin-bottom: 0;	

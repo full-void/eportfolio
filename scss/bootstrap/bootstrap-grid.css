@@ -25,7 +25,6 @@ html {
   margin-right: auto;
   margin-left: auto;
 }
-
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
@@ -46,6 +45,7 @@ html {
     max-width: 1140px;
   }
 }
+
 .container-fluid {
   width: 100%;
   padding-right: 15px;
@@ -58,7 +58,6 @@ html {
   margin-right: 0;
   margin-left: 0;
 }
-
 .no-gutters > .col,
 .no-gutters > [class*=col-] {
   padding-right: 0;
@@ -1883,6 +1882,5 @@ html {
     align-self: stretch !important;
   }
 }
-/*# sourceMappingURL=bootstrap-grid.css.map */
 
 /*# sourceMappingURL=bootstrap-grid.css.map */
